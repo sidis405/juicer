@@ -1,0 +1,41 @@
+{
+  "name": "juicer",
+  "description": "Elixir starting template",
+  "main": "index.html",
+  "authors": [
+    "Sidrit Trandafili"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Elixir",
+    "Gulp",
+    "scaffold"
+  ],
+  "homepage": "https://github.com/sidis405/juicer",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.1",
+    "modernizr": "^3.3.1"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "modernizr.js"
+    },
+    "font-awesome": {
+      "main": "css/font-awesome.css"
+    },
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}

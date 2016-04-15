@@ -1,0 +1,21 @@
+extend template
+
+// Page title
+block title
+	| Page title
+
+// Page meta-description
+block append metatags 
+	meta(name='description', content='A description of the page')
+
+block content	
+	// Including header
+	include en-blocks/header
+	// Page content
+	.jumbotron
+		.container
+			h1 Welcome in ReneJade
+			p ...	
+	// Including footer
+	include en-blocks/footer
+		

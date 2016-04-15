@@ -1,33 +1,46 @@
 {
-    "name": "juicer",
-    "homepage": "http://github.com/sidis405/juicer",
-    "version": "1.0.0",
-    "author": "Sidrit Trandafili",
-    "description": "Elixir startiing template",
-    "keywords": [ "Elixir", "Gulp", "scaffold" ],
-    "maintainers":[{
-        "name": "Sidrit Trandafili",
-        "email": "forge405@gmail.com",
-        "web": "http://sidrit.com"
-    }],
-    "repository": [{
-        "type": "git",
-        "url": "git://github.com/sidis405/juicer.git"
-    }],
-    "bugs": "https://github.com/sidis405/juicer/issues",
-    "license": "ISC",
-    "main": "index.html",
-    "dependencies": {
-        "babel-preset-es2015": "^6.5.0",
-        "babel-preset-react": "^6.5.0",
-        "vue": "^1.0.16"
-    },
-    "devDependencies": {
-        "gulp": "^3.9.1",
-        "laravel-elixir": "^5.0.0"
-    },
-    "scripts": {
-        "start": "gulp watch",
-        "prod": "gulp --production"
+  "name": "juicer",
+  "homepage": "http://github.com/sidis405/juicer",
+  "version": "1.0.0",
+  "author": "Sidrit Trandafili",
+  "description": "Elixir starting template",
+  "keywords": [
+    "Elixir",
+    "Gulp",
+    "scaffold"
+  ],
+  "maintainers": [
+    {
+      "name": "Sidrit Trandafili",
+      "email": "forge405@gmail.com",
+      "web": "http://sidrit.com"
     }
+  ],
+  "repository": [
+    {
+      "type": "git",
+      "url": "git://github.com/sidis405/juicer.git"
+    }
+  ],
+  "bugs": "https://github.com/sidis405/juicer/issues",
+  "license": "ISC",
+  "main": "index.html",
+  "dependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "bower": "^1.7.9",
+    "del": "^2.2.0",
+    "elixir-juice": "^1.0.0",
+    "fs": "0.0.2",
+    "laravel-elixir-imagemin": "^0.2.3"
+  },
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^5.0.0"
+  },
+  "scripts": {
+    "start": "gulp watch",
+    "prod": "gulp --production"
+  }
 }
