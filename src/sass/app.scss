@@ -1,0 +1,15 @@
+@charset "utf-8";             // Character type for the stylesheet
+
+//font imports
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+$base_font: 'Lato', sans-serif;
+
+//Stuff that goes at the start
+@import "_normalize.sass";    // Removes inconsistencies in the way different browsers render items by default. This is good for modern browsers and mobile.
+
+//Stuff that effects every page
+@import "_main.sass";         // Main CSS for the site. These are generic styles that effect every page
+
+//Stuff that effects specific pages
+
+//Stuff that goes at the end

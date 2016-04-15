@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <title>Basic Crypto App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dist/css/app.css" type="text/css" media="screen">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <div class="crypto-app">
+        <h1>Hash Digester</h1>
+        <select v-model="selected_hash">
+            <option v-for="hash in hashes"> {{ hash }} </option>
+        </select>
+        <textarea v-model="plaintext"></textarea>
+        <textarea>{{ ciphertext }}</textarea>
+    </div>
+
+    <script src="dist/js/app.js"> </script>
+
+</body>
+</html>
